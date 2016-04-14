@@ -1,0 +1,143 @@
+
+body {
+    
+	color: black; /*each element can change the font color inside it */
+	margin: 0 auto;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+header{
+	padding: 1.5em;	
+}
+
+header h1{
+	font-size: 3.2em;
+	padding: .5em .5em .5em .2em;
+}
+header{
+	background-color: #FFA500;
+	color: #45472E;	
+}
+
+div{
+	background-color:#CDE0E7; 
+	border-radius: 1em;
+	margin: 1em 1.2em 1.2em 1.2em;
+	width: 96%;
+    padding: 3px 3px 3px 10px;
+}
+
+h3{
+ padding: 10px; 
+}
+
+#button {
+margin-left: 30em;
+}
+
+
+/*********************************************   FORMS STYLING **********/
+
+
+.error{
+    color: red;   
+}
+
+
+
+/**  give the fieldset some styles (the fieldset set multiple form sections apart) ***/
+
+fieldset{
+	margin-top: 1em;
+	border: none;
+	line-height: 1.6em;	
+	background-color: rgba(139, 146, 139, .01);
+}
+
+
+/*EVERYTHING BELOW IS FROM A TEMPLATE FROM THE 200 CLASS. NOT MY WORK.*/
+
+/**  we use the CSS3 attribute filter to selectivly style certain input elements ***/
+input[type="text"],
+input[type="number"],
+input[type="email"], 
+input[type="select"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+textarea,
+input[type="checkbox"]{
+	width: 10em;	
+	border: 1px solid #abb0ab;
+	padding: .3em;
+    margin: 0 .8em;
+	outline: none;
+}
+textarea{
+	width: 20em;
+	height: 8em;
+}
+
+select{
+    padding: 2px;
+    margin: 0 10px;
+}
+/***   FORM EVENT STYLING **** */
+input[type="text"]:focus, 
+input[type="text"]:hover, 
+input[type="number"]:focus, 
+input[type="number"]:hover, 
+input[type="date"]:focus, 
+input[type="date"]:hover, 
+input[type="tel"]:focus, 
+input[type="tel"]:hover, 
+input[type="password"]:focus, 
+input[type="password"]:hover{
+background-color: lightcyan;
+border: 1px solid #669900;
+		
+}
+/* use the attribute filter to style the submit button uniquely   */
+input[type="submit"]{
+	border: 1px solid #d96849;
+	background-color: #466c8c;
+	color: #f5f6d4;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px 30px;
+    margin: 0 0 0 40px;
+	cursor: pointer;	
+	float: left; clear: left;
+}
+
+input[type="submit"]:hover{
+
+	background-color: #7CA0BD;
+	
+}
+
+label{
+	float: left;
+	width: 260px;
+	clear: left;
+    text-align: right;
+	
+}
+
+.checkboxes{
+	/*float: right;*/
+}
+
+.error{
+    color: red;   
+}
+
+
+
+
+
+
+
+
+
